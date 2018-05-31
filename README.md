@@ -18,6 +18,10 @@ or Gradle:
 ```groovy
 implementation 'com.squareup.okhttp3:okhttp:3.10.0'
 ```
+if that does not work try:
+```groovy
+compile 'com.squareup.okhttp3:okhttp:3.10.0'
+```
 
 Snapshots of the development version are available in [Sonatype's `snapshots` repository][snap].
 
